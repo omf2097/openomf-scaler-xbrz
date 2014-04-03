@@ -8,7 +8,7 @@ const int _available[AVAILABLE_FACTORS] {
 
 
 const char* plugin_get_name() {
-    return "xBRZ Scaler";
+    return "xBRZ";
 }
 
 const char* plugin_get_author() {
