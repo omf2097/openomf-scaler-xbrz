@@ -43,5 +43,5 @@ int EXPORT scaler_handle(const char* in, char* out, int w, int h, int factor) {
 }
 
 int EXPORT scaler_color_format() {
-    return SCALER_COLOR_FORMAT_ARGB8888;
+    return SCALER_COLOR_FORMAT_RGBA8888;
 }
