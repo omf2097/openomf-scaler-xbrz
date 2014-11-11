@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.6)
 project(openomf-scaler-xbrz CXX)
 
-set(CMAKE_CXX_FLAGS "-std=gnu++11 -Wall -Werror")
+set(CMAKE_CXX_FLAGS "-std=gnu++11 -fpermissive -DNDEBUG")
 set(CMAKE_CXX_FLAGS_DEBUG "-ggdb")
 set(CMAKE_CXX_FLAGS_RELEASE "-O2")
 

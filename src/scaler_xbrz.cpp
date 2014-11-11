@@ -23,6 +23,10 @@ const char* plugin_get_type() {
     return "scaler";
 }
 
+const char* plugin_get_version() {
+    return "1.1";
+}
+
 int EXPORT scaler_is_factor_available(int factor) {
     for(int i = 0; i < AVAILABLE_FACTORS; i++) {
         if(_available[i] == factor) {
@@ -38,7 +42,7 @@ int EXPORT scaler_get_factors_list(const int** factors) {
 }
 
 int EXPORT scaler_handle(const char* in, char* out, int w, int h, int factor) {
-    xbrz::scale(factor, (uint32_t*)in, (uint32_t*)out, w, h);
+    xbrz::scale(factor, (uint32_t*)in, (uint32_t*)out, w, h, xbrz::ColorFormat::ARGB);
     return 0;
 }
 
