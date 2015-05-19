@@ -1,8 +1,7 @@
 OpenOMF xBRZ video scaler
 =========================
 
-This is an xBRZ sprite scaler plugin for OpenOMF. Uses slightly altered xBRZ library
-from PPSSPP project.
+This is an xBRZ sprite scaler plugin for OpenOMF.
 
 License
 -------

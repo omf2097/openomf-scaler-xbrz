@@ -24,7 +24,7 @@ const char* plugin_get_type() {
 }
 
 const char* plugin_get_version() {
-    return "1.1";
+    return "1.2";
 }
 
 int EXPORT scaler_is_factor_available(int factor) {
