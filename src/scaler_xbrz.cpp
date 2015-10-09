@@ -1,9 +1,9 @@
 #include "scaler_api.h"
 #include "xbrz/xbrz.h"
 
-#define AVAILABLE_FACTORS 4
+#define AVAILABLE_FACTORS 5
 const int _available[AVAILABLE_FACTORS] {
-    2,3,4,5
+    2,3,4,5,6
 };
 
 
@@ -24,7 +24,7 @@ const char* plugin_get_type() {
 }
 
 const char* plugin_get_version() {
-    return "1.2";
+    return "1.3";
 }
 
 int EXPORT scaler_is_factor_available(int factor) {
